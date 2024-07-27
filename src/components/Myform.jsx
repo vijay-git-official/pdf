@@ -155,7 +155,7 @@ const Myform = () => {
           {pdfPreview && (
             <div className="mt-4">
               <h5>PDF Preview:</h5>
-              <iframe src={pdfPreview} width="300px" height="400px" />
+              <iframe src={pdfPreview} width="300px" height="400px"/>
               <br/>
               <button className="btn btn-secondary mt-3" onClick={downloadPDF}>Download PDF</button>
             </div>
